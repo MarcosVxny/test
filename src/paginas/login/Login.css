@@ -1,0 +1,122 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@200;400&display=swap");
+
+.link-login {
+  text-decoration: none;
+}
+
+.container {
+  background-image: url("https://mir-s3-cdn-cf.behance.net/project_modules/fs/93a34d143799845.62816118a8d87.jpg");
+  background-repeat: no-repeat;
+  width: 100vh;
+  height: 100vh;
+  background-size: cover;
+  background-position: center;
+  overflow: hidden
+}
+
+.container-form-login {
+  display: flex;
+  position: absolute;
+  left: 11%;
+  
+  color: white;
+
+  width: 500px;
+  height: 550px;
+
+  padding: 50px 0;
+
+  background: white 0.35;
+  backdrop-filter: blur(5.5px);
+
+  border-radius: 40px;
+  box-shadow: 0 8px 15px 0 rgba(0, 0, 0, 0.37);
+
+  -webkit-backdrop-filter: blur(13.5px);
+
+  
+
+}
+
+@media(max-width: 425px),(max-width: 669px) {
+  .container {
+    width: 100vh !important;
+    height: 100vh !important;
+    background-size: cover !important;
+  }
+
+  .container-form-login {
+    /* display: flex;
+  justify-content: center !important;
+  align-items: center !important;
+  height: 100vh; */
+  }
+}
+
+@media(max-width: 1440px), (max-width: 1030.40px) {
+  .container-form-login {
+    left: 11%;
+  }
+}
+
+
+
+
+
+.titulo-login {
+  color: white;
+  height: 70px !important;
+  font-family: "Poppins", sans-serif !important;
+}
+
+input#usuario,
+input#senha {
+  border-radius: 10px;
+  border: 1px white solid;
+  color: white;
+}
+
+label {
+  color: white !important;
+  font-family: "Poppins", sans-serif !important;
+}
+
+.btn-enviar {
+  background-color: #222789 !important;
+  border: none !important;
+  border-radius: 5px !important;
+  color: white !important;
+  font-family: "Poppins", sans-serif !important;
+}
+
+.btn-enviar:hover {
+  background-color: #c9cadd !important;
+  color: #222789 !important;
+}
+
+.legenda-login {
+  font-family: "Poppins", sans-serif !important;
+  font-weight: 200 !important;
+}
+
+.legenda-cadastrar {
+  font-family: "Poppins", sans-serif !important;
+  color: white;
+}
+
+.legenda-cadastrar:hover {
+  color: #222789;
+}
+
+.img-login {
+  width: 500px;
+  height: 500px;
+  position: relative;
+  /* animation: float 4s linear infinite; */
+}
+
+/* @keyframes float {
+  0% { transform: translate(0,  0px); }
+  50%  { transform: translate(0, 35px); }
+  100%   { transform: translate(0, -0px); }
+} */

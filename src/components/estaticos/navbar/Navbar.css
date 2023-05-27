@@ -1,0 +1,45 @@
+.bg-menu {
+  background: linear-gradient(
+    24deg,
+    rgba(10, 7, 73, 1) 0%,
+    rgba(46, 32, 129, 1) 100%
+  );
+}
+.container-menu {
+  align-items: center;
+  display: flex;
+  justify-content: space-between;
+  margin: 0 40px;
+}
+
+.menu-logo {
+  width: 150px;
+  padding: 10px;
+}
+
+.menu-item {
+  color: white;
+  margin-right: 40px;
+  text-transform: capitalize;
+  cursor: pointer;
+}
+
+.link-logout {
+  border-radius: 5px;
+  background-color: #f7593d;
+  padding: 0 5px;
+  text-align: center;
+}
+
+.link-logout:hover {
+  background-color: #f94323;
+}
+
+.link-logout .menu-item:hover {
+  color: #240d63;
+}
+
+.menu-item:hover {
+  color: #f7593d;
+  transition: 0.3s;
+}

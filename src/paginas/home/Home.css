@@ -1,0 +1,32 @@
+.container-principal {
+  min-height: 100vh;
+  width: 100vw;
+  background-image: url("https://svgshare.com/i/sqC.svg");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.botao-principal {
+  background-color: #f94323 !important;
+  border-radius: 5px !important;
+  color: white !important;
+  margin-top: 20px !important;
+}
+
+.botao-principal:hover {
+  background-color: #f7593d !important;
+  /* color: #240d63 !important; */
+}
+
+.img-principal {
+  width: 500px;
+  height: 500px;
+  position: relative;
+  animation: float 4s linear infinite;
+}
+
+@keyframes float {
+  0% { transform: translate(0, 0px) }
+  50% { transform: translate(0, 35px) }
+  100% { transform: translate(0, -0px) }
+}

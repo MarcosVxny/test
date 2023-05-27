@@ -1,0 +1,20 @@
+.titulo {
+    font-weight: bold;
+}
+
+.tab-barra-abas {
+    background: linear-gradient(
+    24deg,
+    rgba(10, 7, 73, 1) 0%,
+    rgba(46, 32, 129, 1) 100%
+  );
+}
+
+.titulo {
+    color: white !important;
+}
+
+.texto-sobre {
+    color: white;
+    margin: 20px 100px !important;
+}
